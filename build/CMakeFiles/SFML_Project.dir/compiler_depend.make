@@ -90,9 +90,18 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -191,6 +200,7 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
   /usr/include/c++/14/bits/range_access.h \
   /usr/include/c++/14/bits/refwrap.h \
   /usr/include/c++/14/bits/requires_hosted.h \
+  /usr/include/c++/14/bits/specfun.h \
   /usr/include/c++/14/bits/std_abs.h \
   /usr/include/c++/14/bits/stl_algo.h \
   /usr/include/c++/14/bits/stl_algobase.h \
@@ -222,6 +232,7 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
   /usr/include/c++/14/cctype \
   /usr/include/c++/14/cerrno \
   /usr/include/c++/14/clocale \
+  /usr/include/c++/14/cmath \
   /usr/include/c++/14/concepts \
   /usr/include/c++/14/cstddef \
   /usr/include/c++/14/cstdio \
@@ -242,6 +253,7 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
   /usr/include/c++/14/ios \
   /usr/include/c++/14/iosfwd \
   /usr/include/c++/14/iterator \
+  /usr/include/c++/14/limits \
   /usr/include/c++/14/locale \
   /usr/include/c++/14/map \
   /usr/include/c++/14/new \
@@ -254,6 +266,18 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
   /usr/include/c++/14/string \
   /usr/include/c++/14/string_view \
   /usr/include/c++/14/system_error \
+  /usr/include/c++/14/tr1/bessel_function.tcc \
+  /usr/include/c++/14/tr1/beta_function.tcc \
+  /usr/include/c++/14/tr1/ell_integral.tcc \
+  /usr/include/c++/14/tr1/exp_integral.tcc \
+  /usr/include/c++/14/tr1/gamma.tcc \
+  /usr/include/c++/14/tr1/hypergeometric.tcc \
+  /usr/include/c++/14/tr1/legendre_function.tcc \
+  /usr/include/c++/14/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14/tr1/poly_hermite.tcc \
+  /usr/include/c++/14/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14/tr1/special_function_util.h \
   /usr/include/c++/14/tuple \
   /usr/include/c++/14/type_traits \
   /usr/include/c++/14/typeinfo \
@@ -281,6 +305,7 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
   /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -311,15 +336,9 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/stdc-predef.h:
 
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
 /usr/include/pthread.h:
 
 /usr/include/locale.h:
-
-/usr/include/gnu/stubs-64.h:
 
 /usr/include/features-time64.h:
 
@@ -345,9 +364,37 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/atomic_word.h:
 
-/usr/include/c++/14/bits/move.h:
+/usr/include/c++/14/vector:
 
-/usr/include/bits/types/locale_t.h:
+/usr/include/c++/14/typeinfo:
+
+/usr/include/c++/14/type_traits:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/14/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/14/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/14/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/14/tr1/legendre_function.tcc:
+
+/usr/include/c++/14/tr1/gamma.tcc:
+
+/usr/include/c++/14/tr1/exp_integral.tcc:
+
+/usr/include/c++/14/system_error:
+
+/usr/include/c++/14/string_view:
+
+/usr/include/c++/14/string:
+
+/usr/include/c++/14/streambuf:
+
+/usr/include/c++/14/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/14/pstl/execution_defs.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -357,11 +404,9 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/bits/types/FILE.h:
 
+/usr/include/bits/flt-eval-method.h:
+
 /usr/include/bits/thread-shared-types.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/c++/14/exception:
 
 /usr/include/bits/struct_mutex.h:
 
@@ -379,21 +424,23 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/bits/pthreadtypes-arch.h:
 
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/c++/14/exception:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
 /usr/include/bits/locale.h:
 
 /usr/include/bits/floatn.h:
 
 /usr/include/bits/floatn-common.h:
 
-/usr/include/bits/types/sigset_t.h:
-
-/home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Glsl.hpp:
-
 /usr/include/c++/14/iterator:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/types/clockid_t.h:
 
 /usr/include/bits/atomic_wide_counter.h:
 
@@ -403,8 +450,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/cstdlib:
 
-/usr/include/c++/14/system_error:
-
 /usr/include/alloca.h:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Window/WindowStyle.hpp:
@@ -413,9 +458,15 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/vector.tcc:
 
-/usr/include/c++/14/bits/algorithmfwd.h:
+/usr/include/bits/mathcalls-narrow.h:
 
-/usr/include/c++/14/bits/stl_algo.h:
+/usr/include/c++/14/ext/string_conversions.h:
+
+/home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Transform.hpp:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/c++/14/bits/algorithmfwd.h:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Window/Sensor.hpp:
 
@@ -425,11 +476,9 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Window/Cursor.hpp:
 
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/bits/math-vector.h:
 
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/types/clock_t.h:
+/usr/include/c++/14/bits/exception_ptr.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h:
 
@@ -437,11 +486,7 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/stl_iterator.h:
 
-/usr/include/bits/typesizes.h:
-
-/home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Transform.hpp:
-
-/usr/include/c++/14/ext/string_conversions.h:
+/usr/include/math.h:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Texture.hpp:
 
@@ -461,7 +506,7 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/cstddef:
 
-/usr/include/c++/14/type_traits:
+/usr/include/c++/14/tr1/bessel_function.tcc:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Glyph.hpp:
 
@@ -477,6 +522,8 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/requires_hosted.h:
 
+/usr/include/bits/iscanonical.h:
+
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics.hpp:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics/RectangleShape.hpp:
@@ -491,13 +538,13 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/uses_allocator.h:
 
+/usr/include/c++/14/tr1/poly_hermite.tcc:
+
 /usr/include/bits/libc-header-start.h:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Export.hpp:
 
 /usr/include/c++/14/bits/stringfwd.h:
-
-/usr/include/bits/types/mbstate_t.h:
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/c++allocator.h:
 
@@ -519,6 +566,10 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/locale_facets_nonio.h:
 
+/usr/include/c++/14/pstl/pstl_config.h:
+
+/home/paulo/data/projects/SFML_Project/include/SFML/Window/Event.hpp:
+
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics/CircleShape.hpp:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Window/Clipboard.hpp:
@@ -527,19 +578,25 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/c++/14/tr1/special_function_util.h:
+
+/usr/include/c++/14/stdexcept:
+
+/usr/include/bits/fp-logb.h:
+
 /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h:
 
 /usr/include/c++/14/bits/predefined_ops.h:
-
-/home/paulo/data/projects/SFML_Project/include/SFML/System/Utf.hpp:
-
-/home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Color.hpp:
 
 /usr/include/c++/14/bits/functexcept.h:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/System/Thread.inl:
 
 /usr/include/bits/types.h:
+
+/usr/include/c++/14/tuple:
+
+/home/paulo/data/projects/SFML_Project/include/SFML/System/Vector2.inl:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/System/Vector3.hpp:
 
@@ -561,10 +618,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /home/paulo/data/projects/SFML_Project/include/SFML/System/Vector3.inl:
 
-/usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
 /usr/include/asm/errno.h:
 
 /usr/include/bits/stdint-uintn.h:
@@ -573,9 +626,19 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/stl_iterator_base_funcs.h:
 
-/usr/include/bits/types/error_t.h:
+/usr/include/bits/libm-simd-decl-stubs.h:
 
-/home/paulo/data/projects/SFML_Project/src/main.cpp:
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/bits/time.h:
+
+/home/paulo/data/projects/SFML_Project/include/SFML/Window/Keyboard.hpp:
+
+/usr/include/c++/14/debug/assertions.h:
 
 /usr/include/bits/errno.h:
 
@@ -584,8 +647,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 /usr/include/c++/14/bits/cpp_type_traits.h:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics/VertexBuffer.hpp:
-
-/usr/include/c++/14/typeinfo:
 
 /usr/include/c++/14/bits/stl_heap.h:
 
@@ -655,17 +716,43 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/bits/setjmp.h:
 
+/home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Color.hpp:
+
+/home/paulo/data/projects/SFML_Project/include/SFML/System/Utf.hpp:
+
+/home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Glsl.hpp:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/14/tr1/ell_integral.tcc:
+
+/usr/include/c++/14/bits/move.h:
+
 /home/paulo/data/projects/SFML_Project/include/SFML/System/Utf.inl:
 
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/bits/time.h:
-
-/home/paulo/data/projects/SFML_Project/include/SFML/Window/Keyboard.hpp:
-
-/usr/include/c++/14/debug/assertions.h:
-
 /home/paulo/data/projects/SFML_Project/include/SFML/Window.hpp:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/c++/14/bits/specfun.h:
+
+/usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/home/paulo/data/projects/SFML_Project/src/main.cpp:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/bits/types/struct_FILE.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
@@ -683,9 +770,9 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/string_view.tcc:
 
-/usr/include/c++/14/streambuf:
-
 /usr/include/bits/types/timer_t.h:
+
+/usr/include/c++/14/limits:
 
 /usr/include/c++/14/bits/functional_hash.h:
 
@@ -696,6 +783,8 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 /usr/include/c++/14/bits/nested_exception.h:
 
 /usr/include/bits/waitflags.h:
+
+/usr/include/c++/14/tr1/beta_function.tcc:
 
 /usr/include/bits/waitstatus.h:
 
@@ -729,8 +818,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/cwchar:
 
-/usr/include/c++/14/stdexcept:
-
 /usr/include/c++/14/bits/codecvt.h:
 
 /usr/include/c++/14/bits/cxxabi_forced.h:
@@ -738,8 +825,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 /home/paulo/data/projects/SFML_Project/include/SFML/Window/Window.hpp:
 
 /usr/include/c++/14/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/14/string_view:
 
 /home/paulo/data/projects/SFML_Project/include/SFML/Graphics/Text.hpp:
 
@@ -753,9 +838,11 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/exception_defines.h:
 
-/usr/include/c++/14/bits/exception_ptr.h:
-
 /usr/include/c++/14/bits/locale_classes.h:
+
+/usr/include/c++/14/bits/stl_algo.h:
+
+/usr/include/c++/14/cmath:
 
 /usr/include/libintl.h:
 
@@ -811,10 +898,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/std_abs.h:
 
-/home/paulo/data/projects/SFML_Project/include/SFML/Window/Event.hpp:
-
-/usr/include/c++/14/pstl/pstl_config.h:
-
 /usr/include/c++/14/bits/new_allocator.h:
 
 /usr/include/c++/14/bits/stl_bvector.h:
@@ -843,8 +926,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/bits/uniform_int_dist.h:
 
-/usr/include/c++/14/vector:
-
 /usr/include/c++/14/bits/uses_allocator_args.h:
 
 /usr/include/c++/14/bits/version.h:
@@ -857,7 +938,11 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 
 /usr/include/c++/14/cwctype:
 
+/usr/include/c++/14/tr1/hypergeometric.tcc:
+
 /usr/include/c++/14/debug/debug.h:
+
+/usr/include/bits/mathcalls.h:
 
 /usr/include/c++/14/bits/ostream.tcc:
 
@@ -880,13 +965,3 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/paulo/data/projects/SFML_Proje
 /usr/include/c++/14/ext/type_traits.h:
 
 /usr/include/c++/14/locale:
-
-/usr/include/c++/14/pstl/execution_defs.h:
-
-/usr/include/c++/14/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/14/string:
-
-/home/paulo/data/projects/SFML_Project/include/SFML/System/Vector2.inl:
-
-/usr/include/c++/14/tuple:

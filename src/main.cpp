@@ -3,41 +3,39 @@
 
 int main()
 {
-    sf::ContextSettings settings;
-    settings.antialiasingLevel = 8;
-    sf::RenderWindow window(sf::VideoMode(1280, 720), "Test Win", sf::Style::Default, settings);
-    sf::RectangleShape pipe(sf::Vector2f(50.f, 100.f));
-    pipe.setFillColor(sf::Color::Green);
-    pipe.setPosition(1280.f, 360.f - pipe.getSize().y / 2);
-    
-    float speed = 200.f;
-    sf::Clock clock;
+	sf::RenderWindow window(sf::VideoMode(800, 600), "My window");
+	window.setVerticalSyncEnabled(true);
+	
 
-    while (window.isOpen())
-    {
-        sf::Event vnt;
-        while (window.pollEvent(vnt))
-        {
-            if (vnt.type == sf::Event::Closed)
-                window.close();
-        }
-        
-        sf::Time deltaTime = clock.restart();
-        
-        
-float distance = speed * deltaTime.asSeconds();
-        pipe.move(-distance, 0); // Move left
+	sf::CircleShape greenCircle(100, 100);
+	greenCircle.setFillColor(sf::Color(255, 0, 50));
+	greenCircle.setPosition(10.f, 50.f);
+	greenCircle.move(5.f, 5.f);
+	sf::Vector2f posititon = greenCircle.getPosition();
 
-        // If the rectangle goes off-screen, reposition it to the right
-        if (pipe.getPosition().x + pipe.getSize().x < 0)
-        {
-            pipe.setPosition(1280.f, 360.f - pipe.getSize().y / 2);
-        }
+	sf::CircleShape blueCircle(200, 200);
+	blueCircle.setFillColor(sf::Color(0, 255, 100));	
 
-        window.clear();
-        window.draw(pipe);
-        window.display();
-    }
+	sf::CircleShape purpleCircle(300, 300);
+	purpleCircle.setFillColor(sf::Color(0, 255, 70));
 
-    return 0;
+	sf::RectangleShape redRectangle(sf::Vector2f(200, 200));
+	
+
+	while(window.isOpen())
+	{
+		sf::Event initialize;
+		while(window.pollEvent(initialize))
+		{
+			if(initialize.type == sf::Event::Closed)
+				window.close();
+		}
+		
+		window.clear(sf::Color::Black);
+
+		window.draw(greenCircle);
+		window.display();
+	}
+
+	return 0;
 }

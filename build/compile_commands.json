@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/ubuntulaptop/SFML_Project/build",
+  "command": "/usr/bin/c++  -isystem /home/ubuntulaptop/SFML_Project/include -std=gnu++17 -o CMakeFiles/SFML_Project.dir/src/main.cpp.o -c /home/ubuntulaptop/SFML_Project/src/main.cpp",
+  "file": "/home/ubuntulaptop/SFML_Project/src/main.cpp",
+  "output": "CMakeFiles/SFML_Project.dir/src/main.cpp.o"
+}
+]

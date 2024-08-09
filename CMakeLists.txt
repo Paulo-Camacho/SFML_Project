@@ -24,3 +24,8 @@ target_link_libraries(SFML_Project sfml-system sfml-window sfml-graphics sfml-ne
 # Set the RPATH to use the local SFML libraries
 set(CMAKE_INSTALL_RPATH "${CMAKE_SOURCE_DIR}/lib")
 set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
+
+# Custom command to copy the assets directory
+add_custom_command(TARGET SFML_Project POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_SOURCE_DIR}/assets $<TARGET_FILE_DIR:SFML_Project>/assets)

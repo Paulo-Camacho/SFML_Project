@@ -107,6 +107,7 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
   /usr/include/c++/13/bits/locale_conv.h \
@@ -179,6 +180,8 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
   /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
   /usr/include/c++/13/locale \
@@ -394,7 +397,13 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/13/bits/refwrap.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
@@ -418,13 +427,15 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 
 /usr/include/c++/13/bits/locale_facets.h:
 
-/usr/include/c++/13/bits/locale_conv.h:
-
 /home/ubuntulaptop/SFML_Project/include/SFML/System/ThreadLocal.hpp:
 
 /usr/include/errno.h:
 
 /usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/bits/locale_conv.h:
+
+/usr/include/c++/13/bits/istream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -518,6 +529,12 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 
 /home/ubuntulaptop/SFML_Project/include/SFML/Graphics/Vertex.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/home/ubuntulaptop/SFML_Project/include/SFML/Window/Context.hpp:
+
 /home/ubuntulaptop/SFML_Project/include/SFML/Window/WindowStyle.hpp:
 
 /home/ubuntulaptop/SFML_Project/include/SFML/Graphics/BlendMode.hpp:
@@ -606,8 +623,6 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 
 /usr/include/c++/13/cerrno:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
 /home/ubuntulaptop/SFML_Project/include/SFML/System/String.inl:
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
@@ -675,6 +690,8 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /home/ubuntulaptop/SFML_Project/include/SFML/Graphics/Glyph.hpp:
+
+/usr/include/c++/13/istream:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -768,6 +785,8 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 
 /usr/include/c++/13/bits/stl_bvector.h:
 
+/usr/include/c++/13/bits/refwrap.h:
+
 /home/ubuntulaptop/SFML_Project/include/SFML/Graphics/Transformable.hpp:
 
 /usr/include/c++/13/bits/stl_algo.h:
@@ -841,6 +860,8 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 /usr/include/c++/13/ext/type_traits.h:
 
 /usr/include/c++/13/ios:
+
+/usr/include/c++/13/iostream:
 
 /home/ubuntulaptop/SFML_Project/include/SFML/Window/Keyboard.hpp:
 
@@ -947,15 +968,3 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.o: /home/ubuntulaptop/SFML_Project/src/
 /home/ubuntulaptop/SFML_Project/include/SFML/Graphics/Rect.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/home/ubuntulaptop/SFML_Project/include/SFML/Window/Context.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:

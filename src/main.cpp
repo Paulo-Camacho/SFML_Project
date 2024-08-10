@@ -6,9 +6,9 @@ int main(int argc, char* argv[])
 {
     std::cout << "text, world" << std::endl;
     
-    const int wWidth  = 640;
-    const int wHeight = 480;
-    sf::RenderWindow window(sf::VideoMode(wWidth, wHeight), "VIDGEOGAME");
+    const int windowWidth  = 640;
+    const int windowHeight = 480;
+    sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "VIDGEOGAME");
     window.setFramerateLimit(60);
 
     sf::Font bitsrom;
@@ -20,18 +20,23 @@ int main(int argc, char* argv[])
 
     sf::Text text("Hello, world ", bitsrom, 24);
     text.setFillColor(sf::Color::White);
-    text.setPosition(0, wHeight - (float)text.getCharacterSize());
+    text.setPosition(0, windowHeight - (float)text.getCharacterSize() - 1);
+    // The float value substracts the height of the characters, such that it moves back
+    // inside of the window ~
     
     
-    sf::CircleShape greenCircle(200.f, 1000);
+    sf::CircleShape greenCircle(25.0f, 1000);
     greenCircle.setFillColor(sf::Color(0, 255, 0));
+    greenCircle.setPosition(320.0f, 240.0f);
+    float circleMoveSpeedX = 5.0f; 
+    float circleMoveSpeedY = 5.0f; 
 
-    sf::CircleShape redTriangle(200.f, 3);
+    sf::CircleShape redTriangle(50.f, 3);
     redTriangle.setFillColor(sf::Color(255, 0, 0, 200));
 
 
 
-       while(window.isOpen())
+       while (window.isOpen())
     {
         sf::Event initialize;
         while(window.pollEvent(initialize))
@@ -40,11 +45,31 @@ int main(int argc, char* argv[])
                 window.close();
         }
 
-        window.clear(sf::Color::Black);
-        window.draw(text);
-        window.draw(greenCircle);
-        window.draw(redTriangle);
-        window.display();
+        greenCircle.setPosition(greenCircle.getPosition().x + circleMoveSpeedX, greenCircle.getPosition().y + circleMoveSpeedY);
+            
+            
+        greenCircle.move(circleMoveSpeedX, circleMoveSpeedY);
+
+        float circleRadius = greenCircle.getRadius();
+        sf::Vector2f circlePos = greenCircle.getPosition();
+
+        if (circlePos.x - circleRadius <= 0) {
+            circleMoveSpeedX = std::abs(circleMoveSpeedX); 
+        } else if (circlePos.x + circleRadius >= windowWidth) {
+            circleMoveSpeedX = -std::abs(circleMoveSpeedX);
+        }
+
+        if (circlePos.y - circleRadius <= 0) {
+            circleMoveSpeedY = std::abs(circleMoveSpeedY);
+        } else if (circlePos.y + circleRadius >= windowHeight) {
+            circleMoveSpeedY = -std::abs(circleMoveSpeedY);
+        }
+
+            window.clear(sf::Color(135, 206, 235));
+            window.draw(text);
+            window.draw(redTriangle);
+            window.draw(greenCircle);
+            window.display();
     }
 
     return 0;
